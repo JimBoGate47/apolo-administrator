@@ -1,10 +1,10 @@
 export const projectsData = [
   {
-    img: "/img/home-decor-1.jpeg",
-    title: "Reactores",
+    img: "/img/home-decor-1.png",
+    title: "Agriculture and food industry",
     tag: "Project #1",
     description:
-      "As Uber works through a huge amount of internal management turmoil.",
+      "To control foodborne diseases.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-1.jpeg", name: "Romina Hadid" },
@@ -14,11 +14,11 @@ export const projectsData = [
     ],
   },
   {
-    img: "/img/home-decor-2.jpeg",
-    title: "Radiofarmaceuticos",
+    img: "/img/home-decor-2.png",
+    title: "Art and society",
     tag: "Project #2",
     description:
-      "Music is something that every person has his or her own specific opinion about.",
+      "World Heritage Preservation. Sterilization by radiation.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-4.jpeg", name: "Alexander Smith" },
@@ -28,11 +28,11 @@ export const projectsData = [
     ],
   },
   {
-    img: "/img/home-decor-3.jpeg",
-    title: "Medicina Nuclear",
+    img: "/img/home-decor-3.png",
+    title: "New materials",
     tag: "Project #3",
     description:
-      "Different people have different taste, and various types of music.",
+      "Strengthen composites and materials.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-1.jpeg", name: "Romina Hadid" },
@@ -42,11 +42,11 @@ export const projectsData = [
     ],
   },
   {
-    img: "/img/home-decor-4.jpeg",
-    title: "Teranostica",
+    img: "/img/home-decor-4.png",
+    title: "Radioisotopes",
     tag: "Project #4",
     description:
-      "Why would anyone pick blue over pink? Pink is obviously a better color.",
+      "Ratiometric dating. Isotopic hydrology.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-4.jpeg", name: "Alexander Smith" },
