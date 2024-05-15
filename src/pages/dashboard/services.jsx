@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
 import { ProfileInfoCard, MessageCard } from "@/widgets/cards";
 import { platformSettingsData, conversationsData, projectsData } from "@/data";
 
-export function Profile() {
+export function Services() {
   return (
     <>
       <div className="relative mt-8 h-72 w-full overflow-hidden rounded-xl bg-[url('/img/background-image.png')] bg-cover	bg-center">
@@ -141,13 +141,13 @@ export function Profile() {
           </div> */}
           <div className="px-4 pb-4">
             <Typography variant="h6" color="blue-gray" className="mb-2">
-              Courses
+              Services
             </Typography>
             <Typography
               variant="small"
               className="font-normal text-blue-gray-500"
             >
-              Non-power Applications of Nuclear Technologies.
+              We have many ways to apply the services of Non-Power Applications of Nuclear Technologies.
             </Typography>
             <div className="mt-6 grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-4">
               {projectsData.map(
@@ -218,4 +218,4 @@ export function Profile() {
   );
 }
 
-export default Profile;
+export default Services;
